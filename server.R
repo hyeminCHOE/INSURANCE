@@ -3,7 +3,7 @@ library(shiny)
 source("helpers.R")
 
 #data 불러오기
-data<-read.csv("part2_완전생명표.csv")
+data<-read.table("data.txt",header=T)
 
 # 변수 설정
 lx_f<-data[,4]  #여자.생존자수
